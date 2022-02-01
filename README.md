@@ -1,46 +1,44 @@
 # Project 4
-Needleman Wunsch Algorithm
 
+Needleman-Wunsch algorithm.
 
 # Assignment Overview
-The purpose of this assigment is to have you implement the Needleman-Wunsch global pairwise sequence alignment algorithm (dynamic programming).
-See this [video](https://www.youtube.com/watch?v=NqYY0PJbD3s) for a walk through of the algorithm implementation. NOTE: This video misses an important step. In the video the X and Y gap matrices assume only two possible transitions when in reality there are three. The missing possibility is the chance that immediately go from a gap in one sequence to a gap in a second sequence. Please follow Lee's Lecture in terms of this appraoch. Please ask the TAs if you have any questions.
+
+The purpose of this assigment is to have you implement the Needleman-Wunsch global pairwise sequence alignment algorithm (dynamic programming). See this [video](https://www.youtube.com/watch?v=NqYY0PJbD3s) for a walk through of the algorithm implementation. NOTE: This video misses an important step. In the video the X and Y gap matrices assume only two possible transitions when in reality there are three. The missing possibility is the chance that immediately go from a gap in one sequence to a gap in a second sequence. Please follow Lee's Lecture in terms of this approach. Please ask the TAs if you have any questions.
 
 # Assignment Tasks
+
 ## Coding Assessment
+
 **Note: All modules you need have already been imported.**
+
 * [TODO] Complete the `NeedlemanWunsch.align` method found in the align/align.py 
-	* Finish the method for filling in the alignment and gap matrices for Needleman-Wunsch.
 * [TODO] Complete the `NeedlemanWunsch._backtrace` method found in align/align.py
-  * Use the heuristic you have chosen to implement in the the `NeedlemanWunsch.align` method to implement the backtracing procedure.
 * [TODO] Complete the `main` function in main.py to 
     1. align all provided species BRD2 sequences to the human BRD2 sequence and print the species in order of most similar to least similar with respect to human BRD2.
     2. print the alignment scores corresponding to each species alignment to the human BRD2 sequence.
 
 ## Software Development Assessment
+
 ### Unit Tests
+
 * [TODO] Complete the `test_nw_alignment` function in test/test_align.py to test for proper matrix filling in your `NeedlemanWunsch.align` method.
 * [TODO] Complete the `test_nw_backtrace` function in test/test_align.py to test for proper backtracing in your `NeedlemanWunsch._backtrace` method.
 
-Note: To check that you have correclty implemented your algorithm the following information is provided
-* test_seq3.fa and test_seq4.fa should have an alignment score of **17** and an alignment of:
+Note: test_seq3.fa and test_seq4.fa should have an alignment score of **17** and an alignment of:
 
-	MAVHQLIRRP
-	
-	M---QLIRHP
+```
+MAVHQLIRRP	
+M---QLIRHP
+```
+
+### Packaging
+* [TODO] make .toml file with flit and ensure that your package can be installed with pip
 
 ### Automate Testing with [Github Actions](https://docs.github.com/en/actions)
-  See blogposts below on helping set up Github actions with pytest:
-   * [post 1](https://blog.dennisokeeffe.com/blog/2021-08-08-pytest-with-github-actions)
-   * [post 2](https://mattsegal.dev/pytest-on-github-actions.html)
-   * Add "! [BuildStatus] (https://github.com/ < your-github-username > /Project3/workflows/Project3/badge.svg?event=push)" (update link and remove spaces) to the beginning of your README file
-   * Also refer to Assignment 1 for more in-depth help with GitHub actions
-
-Ensure that the Github actions complete the following:
-  * runs pytest
-
-### Pip Installable
-* [TODO] make .toml file with flit and ensure that your package can be installed with pip
+See blogposts below on helping set up Github actions with pytest:
+* [TODO] install and run pytest via GitHub Actions
+* [TODO] add build status badge to README
 
 # Getting Started
 To get started you will need to fork this repository onto your own Github account. Work on the codebase from your own repo and commit changes. 
