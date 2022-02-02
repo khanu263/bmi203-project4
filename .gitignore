@@ -1,0 +1,6 @@
+# Ignore macOS directory files
+.DS_Store
+
+# Ignore caches
+__pycache__/
+.pytest_cache/
