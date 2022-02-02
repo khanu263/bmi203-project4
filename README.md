@@ -1,6 +1,6 @@
-# Project 4
+# bmi203-project4
 
-Needleman-Wunsch algorithm.
+![Unit test status](https://github.com/khanu263/bmi203-project4/workflows/Unit%20tests/badge.svg)
 
 # Assignment Overview
 
@@ -34,8 +34,8 @@ M---QLIRHP
 * ~~make .toml file with flit and ensure that your package can be installed with pip~~
 
 ### Automate Testing with [Github Actions](https://docs.github.com/en/actions)
-* [TODO] install and run pytest via GitHub Actions
-* [TODO] add build status badge to README
+* ~~install and run pytest via GitHub Actions~~
+* ~~add build status badge to README~~
 
 # Getting Started
 To get started you will need to fork this repository onto your own Github account. Work on the codebase from your own repo and commit changes. 
