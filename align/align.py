@@ -100,13 +100,25 @@ class NeedlemanWunsch:
 
     def align(self, seqA: str, seqB: str) -> Tuple[float, str, str]:
         """
-        # TODO: Fill in the Needleman-Wunsch Algorithm below
-        to perform global sequence alignment of seqA and seqB
-        and return a tuple with the following format
-        (alignment score, seqA alignment, seqB alignment)
-        Also, write up a docstring for this function using the
-        _read_sub_matrix as an example.
-        Don't forget to comment your code!
+
+        This function aligns the two given sequences using the Needleman-Wunsch
+        algorithm, as per the scoring matrix and gap penalties specified when
+        creating the aligner.
+
+        Parameters:
+            seqA: str
+                One of the two sequences to align.
+            seqB: str
+                The other sequence to align.
+
+        Returns:
+            alignment_score: float
+                The final alignment score.
+            seqA_align: str
+                Aligned representation of seqA, with '-' representing gaps.
+            seqB_align: str
+                Aligned representation of seqB, with '-' representing gaps.
+
         """
         
         # create matrices for alignment scores and gaps
