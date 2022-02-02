@@ -31,10 +31,9 @@ M---QLIRHP
 ```
 
 ### Packaging
-* [TODO] make .toml file with flit and ensure that your package can be installed with pip
+* ~~make .toml file with flit and ensure that your package can be installed with pip~~
 
 ### Automate Testing with [Github Actions](https://docs.github.com/en/actions)
-See blogposts below on helping set up Github actions with pytest:
 * [TODO] install and run pytest via GitHub Actions
 * [TODO] add build status badge to README
 
