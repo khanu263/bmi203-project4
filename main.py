@@ -18,9 +18,9 @@ def main():
     scores = [nw.align(seq, hs_seq)[0] for seq in seqs]
 
     # Sort and print results
-    scores, species = zip(*sorted(zip(scores, species), reverse = True))
+    ranked = sorted(zip(scores, species), reverse = True)
     print("From most similar to least similar:")
-    print("\n".join(f"{species[i]} (score: {scores[i]})" for i in range(4)))
+    print("\n".join(f"{i[1]} (score: {i[0]})" for i in ranked))
 
 if __name__ == "__main__":
     main()
