@@ -14,16 +14,16 @@ The purpose of this assigment is to have you implement the Needleman-Wunsch glob
 
 * [TODO] Complete the `NeedlemanWunsch.align` method found in the align/align.py 
 * [TODO] Complete the `NeedlemanWunsch._backtrace` method found in align/align.py
-* [TODO] Complete the `main` function in main.py to 
-    1. align all provided species BRD2 sequences to the human BRD2 sequence and print the species in order of most similar to least similar with respect to human BRD2.
-    2. print the alignment scores corresponding to each species alignment to the human BRD2 sequence.
+* ~~Complete the `main` function in main.py to~~
+    1. ~~align all provided species BRD2 sequences to the human BRD2 sequence and print the species in order of most similar to least similar with respect to human BRD2.~~
+    2. ~~print the alignment scores corresponding to each species alignment to the human BRD2 sequence.~~
 
 ## Software Development Assessment
 
 ### Unit Tests
 
-* [TODO] Complete the `test_nw_alignment` function in test/test_align.py to test for proper matrix filling in your `NeedlemanWunsch.align` method.
-* [TODO] Complete the `test_nw_backtrace` function in test/test_align.py to test for proper backtracing in your `NeedlemanWunsch._backtrace` method.
+* ~~Complete the `test_nw_alignment` function in test/test_align.py to test for proper matrix filling in your `NeedlemanWunsch.align` method.~~
+* ~~Complete the `test_nw_backtrace` function in test/test_align.py to test for proper backtracing in your `NeedlemanWunsch._backtrace` method.~~
 
 Note: test_seq3.fa and test_seq4.fa should have an alignment score of **17** and an alignment of:
 
