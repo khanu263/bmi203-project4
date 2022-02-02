@@ -12,11 +12,9 @@ The purpose of this assigment is to have you implement the Needleman-Wunsch glob
 
 **Note: All modules you need have already been imported.**
 
-* [TODO] Complete the `NeedlemanWunsch.align` method found in the align/align.py 
-* [TODO] Complete the `NeedlemanWunsch._backtrace` method found in align/align.py
-* ~~Complete the `main` function in main.py to~~
-    1. ~~align all provided species BRD2 sequences to the human BRD2 sequence and print the species in order of most similar to least similar with respect to human BRD2.~~
-    2. ~~print the alignment scores corresponding to each species alignment to the human BRD2 sequence.~~
+* ~~Complete the `NeedlemanWunsch.align` method found in the align/align.py~~
+* ~~Complete the `NeedlemanWunsch._backtrace` method found in align/align.py~~
+* ~~Complete the `main` function in main.py~~
 
 ## Software Development Assessment
 
